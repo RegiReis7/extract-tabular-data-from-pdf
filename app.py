@@ -12,8 +12,6 @@ def extract_tables_from_pdf(pdf_file):
 
 def main():
     
-    data_list = []
-    
     st.title("PDF Table Extractor")
 
     # File uploader
