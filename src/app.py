@@ -1,8 +1,6 @@
 import streamlit as st
 from read_pdf import read_pdf, extract_tables_from_pdf
 from rag import RAG
-import pandas as pd
-
 
 
 def main():
