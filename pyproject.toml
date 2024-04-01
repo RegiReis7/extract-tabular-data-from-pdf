@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "extract-tabular-data-from-pdf"
+version = "0.1.0"
+description = "Facilitates the extraction of data from PDF files utilizing the Langchain and streamlit libraries. Users can easily install dependencies, run the app, upload PDF files, and extract data displayed in JSON format. The project supports extracting data from a single PDF and can be extended to handle more file formats."
+authors = ["RegiReis7 <reginaldo@live.com.pt>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.13"
+streamlit = "^1.32.2"
+langchain = "^0.1.14"
+langchain-core = "^0.1.37"
+langchain-community = "^0.0.30"
+pypdf2 = "^3.0.1"
+tabula-py = "^2.9.0"
+boto3 = "^1.34.74"
+faiss-cpu = "^1.8.0"
+langchain-mistralai = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
